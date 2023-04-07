@@ -1,13 +1,13 @@
 import React from 'react'
 import Navbar from './Navbar'
 
-const PgFOF = () => {
+const Profile = () => {
   return (
     <div>
-      <Navbar />
-      <p>404 Not Found</p>
+      <Navbar/>
+      <p>Profile</p>
     </div>
   )
 }
 
-export default PgFOF
+export default Profile

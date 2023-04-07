@@ -1,0 +1,44 @@
+nav {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    background-color: #002dff;
+    align-items: center;
+}
+
+nav button {
+    margin: 5px;
+    background-color: #000;
+    border: none;
+    color: #fff;
+}
+
+span.cart-icon-css {
+    width: 25px;
+    color: #fff;
+    background-color: yellow;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    position: relative;
+    top: -6px;
+    right: 8px;
+}
+
+.cart-btn {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.cart-btn img {
+    width: 30px;
+    height: fit-content;
+}
+
+.profile-icon img {
+    width: 30px;
+    padding-right: 10px;
+}

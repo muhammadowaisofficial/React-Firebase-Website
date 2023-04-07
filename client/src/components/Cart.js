@@ -1,13 +1,13 @@
 import React from 'react'
 import Navbar from './Navbar'
 
-const PgFOF = () => {
+const Cart = () => {
   return (
     <div>
-      <Navbar />
-      <p>404 Not Found</p>
+      <Navbar/>
+      <p>Cart</p>
     </div>
   )
 }
 
-export default PgFOF
+export default Cart

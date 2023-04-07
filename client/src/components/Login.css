@@ -1,0 +1,89 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+form.login-form {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    border: 1px solid #cccc;
+    border-radius: 10px;
+    width: 500px;
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+}
+
+form.login-form p {
+    font-size: 30px;
+    text-align: center;
+    font-weight: 700;
+}
+
+form.login-form label {
+    padding: 0;
+    margin-top: 16px;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+form.login-form input {
+    margin: 2px 0px;
+    border-radius: 5px;
+    padding: 12px;
+    border: 2px solid #cccc;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+form.login-form input:focus {
+    outline: 1px solid orange;
+    border: none;
+}
+
+form.login-form button {
+    background-color: orange;
+    margin: 20px 50px;
+    border: none;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500;
+    border-radius: 10px;
+    padding: 12px;
+}
+
+form.login-form button:hover {
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+.success-msg {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-color: #ccc;
+    padding: 10px;
+    border-radius: 10px;
+    color: green;
+}
+
+.error-msg {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-color: #ccc;
+    padding: 10px;
+    border-radius: 10px;
+    color: #ff1100;
+}
+
+.login-form div {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.login-form div a {
+    color: #fea52a;
+}
